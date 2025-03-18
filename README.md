@@ -1,4 +1,4 @@
-# Amigo Secreto
+# [Amigo Secreto](https://juandresh.github.io/challenge-amigo-secreto/)
 
 ## Descripción
 Este proyecto es parte del **challenge "Amigo Secreto"** de Alura LATAM. Consiste en un sitio web interactivo que permite realizar un sorteo de "amigo secreto" de manera sencilla y visual. El sistema permite a los usuarios ingresar nombres, almacenarlos en una lista y realizar un sorteo aleatorio de un nombre.
