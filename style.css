@@ -160,3 +160,8 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+img{
+    width: 20%;
+    height: 90%;
+}

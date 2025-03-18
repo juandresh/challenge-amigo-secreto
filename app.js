@@ -2,6 +2,11 @@
 
 let lista_amigos = [];
 
+function asignarAmigo(amigo){
+    let listaRes = document.getElementById('resultado');
+    listaRes.textContent = `El amigo secreto sorteado es: ${amigo}`;
+}
+
 function agregarAmigo() {
 
     let lista = document.getElementById('listaAmigos');
@@ -22,8 +27,6 @@ function agregarAmigo() {
 
 function sortearAmigo() {
 
-    let listaRes = document.getElementById('resultado');
-
     if (lista_amigos.length === 0) {
         alert("No hay amigos en la lista para sortear.");
         return;
@@ -33,5 +36,5 @@ function sortearAmigo() {
     let amigoSelect = lista_amigos[amigo];
     console.log(amigoSelect);
 
-    listaRes.textContent = `El amigo secreto sorteado es: ${amigoSelect}`;
+    asignarAmigo(amigoSelect);
 }
