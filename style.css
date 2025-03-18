@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #2F4F4F;
+    --color-secondary: #F5DEB3;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: #f5b041;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -44,7 +44,6 @@ body {
     flex: 60%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,6 +87,9 @@ body {
 }
 
 .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 300px;
     justify-content: center;
 }
@@ -125,6 +127,24 @@ button {
     background-color: #a1a1a1;
 }
 
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover{
+    background-color: var(--color-button-hover);
+}
+
 /* Listas */
 ul {
     list-style-type: none;
@@ -136,7 +156,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #007c36;
     font-size: 22px;
     font-weight: bold;
     text-align: center;

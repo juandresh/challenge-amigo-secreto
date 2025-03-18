@@ -1,5 +1,3 @@
-// import random from 'random'
-
 let lista_amigos = [];
 
 function asignarAmigo(amigo){
@@ -24,7 +22,6 @@ function agregarAmigo() {
     }
 }
 
-
 function sortearAmigo() {
 
     if (lista_amigos.length === 0) {
@@ -37,4 +34,12 @@ function sortearAmigo() {
     console.log(amigoSelect);
 
     asignarAmigo(amigoSelect);
+}
+
+function resetearLista(){
+    let lista = document.getElementById('listaAmigos');
+    lista.textContent = '';
+    lista_amigos = [];
+    let listaRes = document.getElementById('resultado');
+    listaRes.textContent = '';
 }
