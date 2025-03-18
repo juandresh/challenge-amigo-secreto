@@ -11,7 +11,7 @@ Este proyecto es parte del **challenge "Amigo Secreto"** de Alura LATAM. Consist
 - **Sorteo de nombres:**
   - Al presionar el botón "Sortear amigo", el sistema selecciona un nombre al azar de la lista.
   - Muestra el nombre seleccionado en un modal interactivo.
-  - El modal incluye opciones para cerrar o repetir el sorteo.
+  - El modal incluye la opci+on de cerrar para volver a la pantalla principal.
 - **Resetear lista:**
   - Un botón dedicado elimina todos los nombres registrados en la lista y reinicia el sistema.
 
@@ -20,7 +20,7 @@ Este proyecto es parte del **challenge "Amigo Secreto"** de Alura LATAM. Consist
 - No requiere configuración adicional ni instalación de dependencias externas.
 
 ## Cómo usar
-1. Abre el sitio en tu navegador.
+1. Abre el sitio en tu navegador ().
 2. Ingresa los nombres de los participantes uno por uno en la barra de texto.
 3. Presiona el botón "Añadir" después de cada nombre para registrarlo en la lista.
 4. Una vez completada la lista, presiona "Sortear amigo" para seleccionar un nombre al azar.
@@ -30,11 +30,6 @@ Este proyecto es parte del **challenge "Amigo Secreto"** de Alura LATAM. Consist
 - **HTML5**: Estructura del contenido.
 - **CSS3**: Estilo y diseño visual del sitio.
 - **JavaScript**: Funcionalidad interactiva, incluyendo el manejo de eventos y lógica del sorteo.
-
-## Próximas mejoras
-- Validación de duplicados al ingresar nombres.
-- Persistencia de la lista utilizando LocalStorage para mantener los datos al recargar la página.
-- Diseño responsivo para dispositivos móviles.
 
 ## Créditos
 - Desarrollado como parte del **challenge de Alura LATAM**.
