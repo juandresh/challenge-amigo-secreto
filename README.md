@@ -20,7 +20,7 @@ Este proyecto es parte del **challenge "Amigo Secreto"** de Alura LATAM. Consist
 - No requiere configuración adicional ni instalación de dependencias externas.
 
 ## Cómo usar
-1. Abre el sitio en tu navegador ().
+1. Abre el sitio en tu navegador [click aqui](https://juandresh.github.io/challenge-amigo-secreto/).
 2. Ingresa los nombres de los participantes uno por uno en la barra de texto.
 3. Presiona el botón "Añadir" después de cada nombre para registrarlo en la lista.
 4. Una vez completada la lista, presiona "Sortear amigo" para seleccionar un nombre al azar.
